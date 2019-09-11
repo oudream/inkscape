@@ -1,0 +1,51 @@
+
+This directory contains the class Inkscape::UI::View::View and related items.
+
+View is an abstract base class for all UI document views. Documents
+can be displayed by more than one window, each having its own view
+(e.g. zoom level, selection, etc.).
+
+View is the base class for:
+
+* SPDesktop
+* SVGView  REMOVED
+
+SPViewWidget is the base for:
+
+* SPDocumentWidget
+* SPSVGViewWidget  REMOVED
+
+SPSVGViewWidget has been replaced by SVGViewWidget, see below.
+
+
+SPViewWidget:
+  Contains a GtkEventBox and holds a View.
+
+SPDesktopWidget:
+  Contains:
+    VBox
+      HBox
+        GtkGrid
+         GtkPaned
+           GtkGrid
+             SPCanvas
+   Plus lots of other junk.
+
+
+SVGViewWidget:
+  Used many places as a convenient way to show an SVG (file dialog, Inkview).
+  Derived, rather uselessly, from Gtk::Scrollbar.
+  It no longer is dependent on View (and really doesn't belong here anymore).
+
+ It contains: SPCanvas
+
+To do:
+
+
+* Convert everything to C++.
+* Evaluate moving SPDesktopWidget down the widget stack.
+  It doesn't use the EventBox of SPViewWidget!
+
+A DesktopViewWidget should contain:
+  DesktopView (aka SPDesktop)
+  SPCanvas

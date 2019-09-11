@@ -1,0 +1,43 @@
+/*
+* Change only colors, do not add more class, order or remove 
+* also dont chage selectors definition
+*/
+
+.base {
+    fill: #000000;
+}
+
+.success {
+    fill: #009909;
+}
+
+.warning {
+    fill: #FF1990;
+}
+
+.error {
+    fill: #00AAFF;
+}
+
+.dark .base {
+    fill: #ffffff;
+}
+
+.dark .success {
+    fill: #00990A;
+}
+
+.dark .warning {
+    fill: #FF1990;
+}
+
+.dark .error {
+    fill: #00AAFF;
+}
+
+
+/* do not change */
+
+.dark #background {
+    opacity: 0.8 !important;
+}

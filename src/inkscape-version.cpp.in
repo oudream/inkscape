@@ -1,0 +1,7 @@
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+namespace Inkscape {
+    char const *version_string = "@INKSCAPE_VERSION@" " " "(${INKSCAPE_REVISION})";
+    char const *version_string_without_revision = "@INKSCAPE_VERSION@";
+}
+

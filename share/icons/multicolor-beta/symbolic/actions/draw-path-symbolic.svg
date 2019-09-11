@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.1"
+   id="svg1"
+   width="16"
+   height="16"
+   viewBox="0 0 16 16"
+   sodipodi:docname="draw-path-symbolic.svg"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)">
+
+     <style id="s0">
+   .base    { fill: #000000; }
+   .success { fill: #009909; }
+   .warning { fill: #FF1990; }
+   .error   { fill: #00AAFF; }
+   .dark    {  }
+  </style>
+  <style id="s2"> 
+     @import '../../highlights.css'; 
+  </style>
+<metadata
+     id="metadata2927">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs2925">
+    <inkscape:path-effect
+       attempt_force_join="true"
+       miter_limit="100"
+       linejoin_type="extrp_arc"
+       line_width="1.7"
+       linecap_type="butt"
+       is_visible="true"
+       id="path-effect2216"
+       effect="join_type" />
+  </defs>
+  <sodipodi:namedview
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     id="namedview"
+     showgrid="true"
+     inkscape:zoom="62.42869"
+     inkscape:cx="3.0516306"
+     inkscape:cy="7.9875461"
+     inkscape:window-width="1858"
+     inkscape:window-height="1177"
+     inkscape:window-x="54"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g0"
+     inkscape:document-rotation="0"
+     inkscape:snap-global="false">
+    <inkscape:grid
+       type="xygrid"
+       id="grid" />
+  </sodipodi:namedview>
+  <g
+     inkscape:label="draw-path"
+     id="g0">
+    <path
+       id="background"
+       d="M 0,0 H 16 V 16 H 0 Z"
+       style="opacity:0"
+       inkscape:connector-curvature="0" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path1021"
+       d="m 926.04996,243.32195 c -0.0227,-2.39965 1.1774,-6.84595 4.29113,-10.58257 3.11374,-3.73662 8.08075,-6.8511 15.79528,-6.91675 l -0.0145,-1.69994 c -8.17204,0.0695 -13.69495,3.45801 -17.08681,7.5284 -3.39187,4.07038 -4.71303,8.73515 -4.68506,11.68696 z"
+       class="st5  base"
+       style="opacity:0.5"
+       inkscape:path-effect="#path-effect2216"
+       inkscape:original-d="m 925.2,243.33 c -0.0507,-5.35146 5.04257,-18.22214 20.92914,-18.35734"
+       transform="matrix(0.47265641,0,0,0.47265641,-435.60562,-104.40719)"
+       sodipodi:nodetypes="cc" />
+    <path
+       id="rect1023"
+       d="M 0.01287798,8.6978635 H 3.915006 V 12.599991 H 0.01287798 Z"
+       class="success"
+       inkscape:connector-curvature="0"
+       style="fill-opacity:1" />
+    <path
+       id="rect946"
+       d="m 1.6524054,1.951945 h 0.623073 V 12.59999 h -0.623073 z"
+       class="success"
+       inkscape:connector-curvature="0"
+       style="fill-opacity:1"
+       sodipodi:nodetypes="ccccc" />
+    <path
+       class="base"
+       id="polygon1025"
+       d="M 5.6986783,15.971348 13.178561,13.565393 14.545982,8.9992981 15.774274,7.7710084 14.810833,5.8965868 12.93897,4.930587 11.710679,6.158877 7.1394668,7.5262997 4.733513,15.00618 8.6666,11.073094 8.9059415,9.2927744 11.873548,8.8338792 11.412086,11.798918 9.631766,12.03826 Z"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccccccccccccc" />
+    <path
+       id="circle1027"
+       d="M 3.9078723,1.9670688 A 1.9439304,1.9439304 0 0 1 1.9639419,3.9109992 1.9439304,1.9439304 0 0 1 0.0200115,1.9670688 1.9439304,1.9439304 0 0 1 1.9639419,0.02313839 1.9439304,1.9439304 0 0 1 3.9078723,1.9670688"
+       class="success"
+       inkscape:connector-curvature="0"
+       style="fill-opacity:1" />
+  </g>
+</svg>
